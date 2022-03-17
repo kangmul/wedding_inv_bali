@@ -1,0 +1,152 @@
+img.bg{
+    /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+
+#splash-screen{
+    z-index: 99;
+    position: relative;
+}
+
+.pernikahan {
+  font-family: "Poppins", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #df7f7f;
+  text-shadow: 1px 1px black;
+}
+
+.namayangnikah {
+  font-family: "Petemoss", cursive;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 68px;
+  text-shadow: 1px 1px black;
+  color: #eb7979;
+}
+
+.btn-sm {
+  border-radius: 50.5rem !important;
+}
+
+.judul{
+    margin-top: 45%;
+}
+
+.content{
+    z-index: 90;
+    position: relative;
+}
+
+.top{
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.content-1{
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.bg2{
+      /* Set rules to fill background */
+  min-height: 100vh;
+  min-width: 100%;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: 100%;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  object-fit: cover;
+}
+
+.text-front{
+    z-index: 100;
+    position: relative;
+}
+
+
+/*  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+  background-image: url("assets/img/YP1_0563ud.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  /* position: absolute; */
+} */
+
+/* .bgfull{ */
+    /* background-image: url("assets/img/YP1_0563ud.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    background-position: center; */
+
+    /* background-color: gold; */
+    /* position: fixed;  */
+    /* top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%; */
+/* } */
+
+/* #bgfull img{
+    position: relative; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 100%;
+    min-height: 100%;
+} */
+
+/* #splash-screen{
+    position: realtive;
+    z-index: 1;
+} */
